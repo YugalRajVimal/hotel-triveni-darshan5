@@ -54,7 +54,7 @@ export default function BirlaDharamshala() {
             <strong>Mobile No. :- </strong>+918209029773
           </h5>
           <h5>
-            <strong>Email Id :-</strong>rakeshagrawal0333@gmail.com
+            <strong>Email Id :-</strong>rajeevsingh92580@gmail.com
           </h5>
           <div className=" flex justify-evenly gap-4">
             <button className="bg-red-600  p-2 text-sm sm:text-xl text-white border-blue-700 border-[1px] rounded-md">
