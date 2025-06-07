@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Nav from "./Components/Nav";
 import HomeImageComponent from "./Components/HomeImageComponent";
 import GalleryComponent from "./Components/GalleryComponent";
@@ -15,6 +15,8 @@ import RefundPolicy from "./Components/RefundPolicy";
 import TermsConditions from "./Components/TermsAndConditions";
 
 const App = () => {
+
+  const [phoneNo, setPhoneNo] = useState('+918209029773');
   return (
     <BrowserRouter>
       <Routes>
@@ -24,18 +26,18 @@ const App = () => {
             <div className="relative w-full overflow-hidden">
               <UpperNav />
               <Nav />
-              <HomeImageComponent />
+              <HomeImageComponent  phoneNo={phoneNo}/>
               <AboutPage />
 
-              <GalleryComponent />
+              <GalleryComponent  phoneNo={phoneNo}/>
               <HotelFacilityPage />
-              <BirlaDharamshala />
+              <BirlaDharamshala phoneNo={phoneNo} />
               <Footer />
               <div className="fixed flex  items-center  justify-between p-4 w-full bottom-[10px] sm:bottom-0 left-0 ">
-                <a href="tel:+918209029773" className="">
+                <a href={`tel:${phoneNo}`} className="">
                   <FaPhoneAlt className="text-5xl text-white bg-black p-2   rounded-full" />
                 </a>
-                <a href="http://wa.me/+918209029773">
+                <a href={`http://wa.me/${phoneNo}`}>
                   <IoLogoWhatsapp className="text-5xl text-[#08c241] " />
                 </a>
               </div>

@@ -5,8 +5,8 @@ const TermsConditions = () => {
     <div className="p-6 max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold mb-4">Terms & Conditions</h1>
       <p className="mb-4">
-        Welcome to Hotel Triveni Darshan. By booking and staying with us, you
-        agree to abide by the following terms and conditions:
+        Welcome to Birla Dharmshala. By booking and staying with us, you agree
+        to abide by the following terms and conditions:
       </p>
       <ul className="list-disc list-inside mb-4 space-y-2">
         <li>Guests must provide valid ID proof at check-in.</li>

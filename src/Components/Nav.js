@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Menu } from 'lucide-react';
+import React, { useState } from "react";
+import { Menu } from "lucide-react";
 
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -7,7 +7,7 @@ const Nav = () => {
   return (
     <nav className="h-[100px] px-6 py-6 flex justify-between items-center gap-4 relative">
       <h1 className="text-xl sm:text-3xl my-auto whitespace-nowrap">
-        Hotel Triveni Darshan
+        Birla Dharmshala
       </h1>
 
       {/* Hamburger Icon for Mobile */}
@@ -21,7 +21,7 @@ const Nav = () => {
       {/* Navigation Links */}
       <ul
         className={`${
-          isMenuOpen ? 'block' : 'hidden'
+          isMenuOpen ? "block" : "hidden"
         } absolute top-full left-0 w-full bg-white shadow-md md:flex md:static md:w-auto md:bg-transparent md:shadow-none gap-6 z-40`}
       >
         <li className="p-2 md:p-0">

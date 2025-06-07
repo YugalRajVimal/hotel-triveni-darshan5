@@ -13,12 +13,13 @@ const HotelFacilityPage = () => {
   return (
     <div id="hotelFacility" className="pt-10 px-5 md:px-28 lg:px-32">
       <div className="text-center py-4 text-center p-4">
-        <h4 className="font-bold text-3xl sm:text-4xl  pb-2 text-red-700">HOTEL FACILITY</h4>
+        <h4 className="font-bold text-3xl sm:text-4xl  pb-2 text-red-700">
+          HOTEL FACILITY
+        </h4>
         <p className="font-semibold text-md sm:text-lg ">
-          Hotel Triveni Darshan is strategically located in the heart
-          ofPrayagraj, as a budget hotel in Prayagraj providing easy access to
-          the sacred sites and temples that make this city a revered
-          destination.
+          Birla Dharmshala is strategically located in the heart ofPrayagraj, as
+          a budget hotel in Prayagraj providing easy access to the sacred sites
+          and temples that make this city a revered destination.
         </p>
       </div>
       <div className=" flex sm:flex-row flex-col gap-4">

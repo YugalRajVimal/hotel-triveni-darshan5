@@ -5,8 +5,8 @@ const RefundPolicy = () => {
     <div className="p-6 max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold mb-4">Refund Policy</h1>
       <p className="mb-4">
-        At Hotel Triveni Darshan, we understand that plans can change. Below is
-        our refund policy:
+        At Birla Dharmshala, we understand that plans can change. Below is our
+        refund policy:
       </p>
       <ul className="list-disc list-inside mb-4 space-y-2">
         <li>

@@ -5,8 +5,8 @@ const PrivacyPolicy = () => {
     <div className="p-6 max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
       <p className="mb-4">
-        At Hotel Triveni Darshan, we are committed to protecting your privacy.
-        This Privacy Policy explains how your personal information is collected,
+        At Birla Dharmshala, we are committed to protecting your privacy. This
+        Privacy Policy explains how your personal information is collected,
         used, and disclosed by us.
       </p>
       <h2 className="text-xl font-semibold mt-4 mb-2">

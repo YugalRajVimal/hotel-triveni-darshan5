@@ -1,13 +1,14 @@
 import React from "react";
 
-const GalleryComponent = () => {
+const GalleryComponent = (props) => {
+  const { phoneNo } = props;
   return (
     <div id="bookRoom" className="text-center pt-8">
       <h1 className="font-bold text-3xl sm:text-4xl  pb-2 text-red-700">
         ACCOMODATION
       </h1>
       <p className="sm:px-[200px] font-semibold text-md sm:text-lg pb-4">
-        Hotel Triveni Darshan boasts clean and comfortable rooms, with a special
+        Birla Dharmshala boasts clean and comfortable rooms, with a special
         mention for the well-kept AC accommodations.
       </p>
       <div className="w-full flex flex-wrap gap-4 justify-evenly">
@@ -23,7 +24,7 @@ const GalleryComponent = () => {
             </p>
             <button className="bg-red-600  p-1 text-md sm:text-lg text-white border-blue-700 border-[1px] rounded-md">
               <a
-                href="http://wa.me/+918209029773"
+                href={`http://wa.me/${phoneNo}`}
                 className="text-white h-full w-full flex justify-center items-center gapy-2"
               >
                 BOOK NOW
@@ -43,7 +44,7 @@ const GalleryComponent = () => {
             </p>
             <button className="bg-red-600  p-1 text-md sm:text-lg text-white border-blue-700 border-[1px] rounded-md">
               <a
-                href="http://wa.me/+918209029773"
+                href={`http://wa.me/${phoneNo}`}
                 className="text-white h-full w-full flex justify-center items-center gap-2"
               >
                 BOOK NOW
@@ -63,7 +64,7 @@ const GalleryComponent = () => {
             </p>
             <button className="bg-red-600  p-1 text-md sm:text-lg text-white border-blue-700 border-[1px] rounded-md">
               <a
-                href="http://wa.me/+918209029773"
+                href={`http://wa.me/${phoneNo}`}
                 className="text-white h-full w-full flex justify-center items-center gap-2"
               >
                 BOOK NOW
@@ -83,7 +84,7 @@ const GalleryComponent = () => {
             </p>
             <button className="bg-red-600  p-1 text-md sm:text-lg text-white border-blue-700 border-[1px] rounded-md">
               <a
-                href="http://wa.me/+918209029773"
+                href={`http://wa.me/${phoneNo}`}
                 className="text-white h-full w-full flex justify-center items-center gap-2"
               >
                 BOOK NOW
@@ -103,7 +104,7 @@ const GalleryComponent = () => {
             </p>
             <button className="bg-red-600  p-1 text-md sm:text-lg text-white border-blue-700 border-[1px] rounded-md">
               <a
-                href="http://wa.me/+918209029773"
+                href={`http://wa.me/${phoneNo}`}
                 className="text-white h-full w-full flex justify-center items-center gap-2"
               >
                 BOOK NOW
@@ -123,7 +124,7 @@ const GalleryComponent = () => {
             </p>
             <button className="bg-red-600  p-1 text-md sm:text-lg text-white border-blue-700 border-[1px] rounded-md">
               <a
-                href="http://wa.me/+918209029773"
+                href={`http://wa.me/${phoneNo}`}
                 className="text-white h-full w-full flex justify-center items-center gap-2"
               >
                 BOOK NOW

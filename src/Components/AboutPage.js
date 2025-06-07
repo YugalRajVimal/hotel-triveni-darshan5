@@ -8,8 +8,8 @@ const AboutPage = () => {
           ABOUT US
         </h4>
         <p className="font-semibold text-md sm:text-lg">
-          Hotel Triveni Darshan is a very good place to stay as it is very neat
-          and clean and very close to Triveni Sangam Prayagraj, Hanuman Mandir,
+          Birla Dharmshala is a very good place to stay as it is very neat and
+          clean and very close to Triveni Sangam Prayagraj, Hanuman Mandir,
           Alopi Devi Mandir , Railway Station Bade Hanuman Jee Temple, Akshaya
           Vat
         </p>
@@ -32,14 +32,14 @@ const AboutPage = () => {
         </div>
         <div className="w-full lg:w-1/2  flex flex-col gap-3 text-lg justify-center pl-4">
           <h1 className="text-3xl font-bold">
-            About Hotel Triveni Darshan Prayagraj
+            About Birla Dharmshala Prayagraj
           </h1>
           <span className="text-red-600 font-semibold">||जय श्री राम||</span>
           <p>
-            Hotel Triveni Darshan is a popular budget hotel in Prayagraj
-            (formerly known as Allahabad), located near key places of interest,
-            including the Triveni Sangam, which is the confluence of the Ganga,
-            Yamuna, and Sarasvati rivers. This hotel is well-known for offering
+            Birla Dharmshala is a popular budget hotel in Prayagraj (formerly
+            known as Allahabad), located near key places of interest, including
+            the Triveni Sangam, which is the confluence of the Ganga, Yamuna,
+            and Sarasvati rivers. This hotel is well-known for offering
             comfortable stays with basic amenities for both tourists and
             pilgrims visiting the city.
           </p>
@@ -61,10 +61,10 @@ const AboutPage = () => {
           </ul>
           <p>
             Since Prayagraj is an important religious and cultural destination,
-            many visitors choose accommodations like Hotel Triveni Darshan for
-            its proximity to the holy sites. It’s always a good idea to check
-            recent reviews or contact the hotel directly to ensure their
-            services and offerings meet your current expectations.
+            many visitors choose accommodations like Birla Dharmshala for its
+            proximity to the holy sites. It’s always a good idea to check recent
+            reviews or contact the hotel directly to ensure their services and
+            offerings meet your current expectations.
           </p>
         </div>
       </div>

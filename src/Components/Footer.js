@@ -9,12 +9,16 @@ const Footer = () => {
           <a className="w-[250px]" href="/privacypolicy">
             <p>Privacy Policy</p>
           </a>
-          <a className="w-[250px]" href="/refundpolicy">Refund Policy</a>
-          <a className="w-[250px]" href="/termsandconditions">Terms And Conditions</a>
+          <a className="w-[250px]" href="/refundpolicy">
+            Refund Policy
+          </a>
+          <a className="w-[250px]" href="/termsandconditions">
+            Terms And Conditions
+          </a>
         </div>
       </div>
       <p className="pb-8">
-        Copyright © 2015 Hotel Triveni Darshan - Powered by gowappilyinfotech
+        Copyright © 2015 Birla Dharmshala - Powered by gowappilyinfotech
       </p>
     </div>
   );
